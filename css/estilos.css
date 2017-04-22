@@ -1,0 +1,237 @@
+section header{
+  height:0 auto;
+  width: 100%;
+  background-color:#5b7989;
+  border-radius: 10px;
+  display: inline-block;
+
+  }
+
+  h1{
+    color: white;
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+    float: left;
+    text-shadow: 1px 2px 3px #02010a;
+    text-transform: capitalize;
+  }
+  h2{
+    color: white;
+    margin: 7px;
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+    float: right;
+    text-align: right;
+    text-shadow: 1px 2px 3px #02010a;
+    text-transform: capitalize;
+  }
+  a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 0 1px;
+  }
+
+#pana{
+  height: 30%;
+  width: 100%;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #82c3a6;
+  position: relative;
+}
+ section img{
+  display: block;
+  margin: auto;
+  /*width: 30%;*/
+  height: 75%;
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#contenedor1{
+  width: 100%;
+  border-radius: 10px;
+  background-color: #d5c75f;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 2px 3px #02010a;
+  text-transform: capitalize;
+  text-decoration: underline;
+  display: flex;
+  flex-flow: row;
+
+  }
+
+#Paisajes img{
+  order: 1;
+  height: 75%;
+  width: 75%;
+  transition: rotate 3s;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#Paisajes:hover{
+  transform: rotate(10deg);
+}
+
+
+
+
+#Retratos img{
+  order: 2;
+  height: 75%;
+  width: 75%;
+  margin-left: auto%;
+  margin-right: auto;
+  transition: translate 3s
+  }
+
+  #Retratos:hover{
+    transform: translateX(5px) ;
+  }
+
+/* codigo paisajes.html*/
+
+#contenedor2{
+
+  width: 100%;
+  border-radius: 10px;
+  background-color: #d5c75f;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 2px 3px #02010a;
+  text-transform: capitalize;
+  text-decoration: underline;
+  display: flex;
+  flex: auto;
+  flex-flow: column;
+
+  }
+
+
+.imagen1{
+
+  width: 25%;
+  height: 25%;
+  order: 1;
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+
+.imagen2{
+
+  width: 25%;
+  height: 25%;
+  order: 2;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+
+}
+
+.imagen4{
+  width: 25%;
+  height: 25%;
+  order: 4;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+.imagen6{
+  width: 25%;
+  height: 25%;
+  order: 6;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+.imagen3{
+  width: 25%;
+  height: 25%;
+  order: 3;
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+  }
+
+.imagen5{
+  width: 25%;
+  height: 25%;
+  order: 5;
+
+
+}
+
+
+
+
+
+section footer{
+
+  width: 100%;
+  border-radius: 10px;
+  background-color: #C6d5c5;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 2px 3px #02010a;
+  text-transform: capitalize;
+  text-decoration: underline;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: row wrap;
+
+
+}
+
+#contacto{
+  color: black;
+  margin: 7px;
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
+  float: right;
+  text-shadow: 1px 2px 3px #02010a;
+  text-transform: capitalize;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+p{
+  color: black;
+  font-family: 'Pacifico', cursive;
+  float: right;
+  text-align: right;
+  text-shadow: 1px 2px 3px #02010a;
+  text-transform: capitalize;
+}
+
+body{
+  background-color: #02010a;
+}
+@media only screen and (max-width:900px){
+
+#contenedor2{
+width: 100%;
+
+margin: 0 auto;
+
+}
+#imagen1{
+  width: 100%;
+}
+#imagen2{
+  width: 100%;
+}
+#imagen3{
+  width: 100%;
+}
+#imagen4{
+  width: 100%;
+}
+#imagen5{
+  width: 100%;
+}
+#imagen6{
+  width: 100%;
+}
+
+  }
